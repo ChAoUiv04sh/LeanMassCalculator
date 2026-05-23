@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.LeanMassCalculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/app_background</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="colorPrimary">@color/app_black</item>
+        <item name="colorOnPrimary">@color/app_white</item>
+        <item name="colorSecondary">@color/app_black</item>
+        <item name="colorAccent">@color/app_black</item>
+        <item name="colorControlActivated">@color/app_black</item>
+        <item name="colorSurface">@color/app_surface</item>
+        <item name="android:colorAccent">@color/app_black</item>
+        <item name="android:statusBarColor">@color/app_white</item>
+        <item name="android:navigationBarColor">@color/app_white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+
+    <style name="Theme.LeanMassCalculator" parent="Base.Theme.LeanMassCalculator" />
+</resources>
